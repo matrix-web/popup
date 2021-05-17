@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Lab Grotesque', sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #000;
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+  /* box-shadow: 0px -0.11px 16.9495px rgba(183, 187, 225, 0.33); */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.field-group {
+  margin-bottom: .67rem;
+}
+
+.helper-text {
+  display: block;
+  margin-top: .29rem;
+  font-weight: normal;
+  font-size: .72rem;
+  line-height: 1.2;
+  color: #EA0029;
+}
+
+.grey-text {
+  color: #808080;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .field-group {
+    margin-bottom: .57rem;
+  }
+}
