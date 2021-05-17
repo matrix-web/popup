@@ -9,9 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "base.css": "^1.0.0",
-    "button.css": "^1.0.1",
-    "fonts.css": "^2.0.0"
-  }
+  "dependencies": {}
 }
