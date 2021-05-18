@@ -1,17 +1,17 @@
 @font-face {
 	font-family: 'Lab Grotesque';
-	src: url('/LabGrotesque-Medium.e644b0f8.ab9adc6a.woff');
-	src: url('/LabGrotesque-Medium.0394b364.86889b95.woff2') format('woff2'),
-		url('/LabGrotesque-Medium.e644b0f8.ab9adc6a.woff') format('woff');
+	src: url('/LabGrotesque-Medium.e644b0f8.woff');
+	src: url('/LabGrotesque-Medium.0394b364.woff2') format('woff2'),
+		url('/LabGrotesque-Medium.e644b0f8.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lab Grotesque';
-  src: url('/LabGrotesque-Regular.99bd36eb.0e4147af.woff');
-  src: url('/LabGrotesque-Regular.1a979c12.bc941535.woff2') format('woff2'),
-      url('/LabGrotesque-Regular.99bd36eb.0e4147af.woff') format('woff');
+  src: url('/LabGrotesque-Regular.99bd36eb.woff');
+  src: url('/LabGrotesque-Regular.1a979c12.woff2') format('woff2'),
+      url('/LabGrotesque-Regular.99bd36eb.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -229,7 +229,7 @@ body {
   top: 50%;
   width: 14px;
   height: 11px;
-  background-image: url('/check.f6311720.f51d76fc.svg');
+  background-image: url('/check.f6311720.svg');
   background-size: contain;
   background-repeat: no-repeat;
   transform: translate(-50%, -50%) scale(0);
@@ -530,6 +530,4 @@ body {
   }
 }
 
-
-
-/*# sourceMappingURL=/main.c52e0fe2.d52e581a.css.map */
+/*# sourceMappingURL=/main.c52e0fe2.css.map */

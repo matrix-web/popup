@@ -184,12 +184,47 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"main.c52e0fe2.css":[function(require,module,exports) {
+},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/fonts.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\plast\\Desktop\\modal\\LabGrotesque-Medium.e644b0f8.woff":[["LabGrotesque-Medium.e644b0f8.ab9adc6a.woff","LabGrotesque-Medium.e644b0f8.woff"],"LabGrotesque-Medium.e644b0f8.woff"],"C:\\Users\\plast\\Desktop\\modal\\LabGrotesque-Medium.0394b364.woff2":[["LabGrotesque-Medium.0394b364.86889b95.woff2","LabGrotesque-Medium.0394b364.woff2"],"LabGrotesque-Medium.0394b364.woff2"],"C:\\Users\\plast\\Desktop\\modal\\LabGrotesque-Regular.99bd36eb.woff":[["LabGrotesque-Regular.99bd36eb.0e4147af.woff","LabGrotesque-Regular.99bd36eb.woff"],"LabGrotesque-Regular.99bd36eb.woff"],"C:\\Users\\plast\\Desktop\\modal\\LabGrotesque-Regular.1a979c12.woff2":[["LabGrotesque-Regular.1a979c12.bc941535.woff2","LabGrotesque-Regular.1a979c12.woff2"],"LabGrotesque-Regular.1a979c12.woff2"],"C:\\Users\\plast\\Desktop\\modal\\check.f6311720.svg":[["check.f6311720.f51d76fc.svg","check.f6311720.svg"],"check.f6311720.svg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\LabGrotesque-Medium.woff":[["LabGrotesque-Medium.e644b0f8.woff","fonts/LabGrotesque-Medium.woff"],"fonts/LabGrotesque-Medium.woff"],"./..\\fonts\\LabGrotesque-Medium.woff2":[["LabGrotesque-Medium.0394b364.woff2","fonts/LabGrotesque-Medium.woff2"],"fonts/LabGrotesque-Medium.woff2"],"./..\\fonts\\LabGrotesque-Regular.woff":[["LabGrotesque-Regular.99bd36eb.woff","fonts/LabGrotesque-Regular.woff"],"fonts/LabGrotesque-Regular.woff"],"./..\\fonts\\LabGrotesque-Regular.woff2":[["LabGrotesque-Regular.1a979c12.woff2","fonts/LabGrotesque-Regular.woff2"],"fonts/LabGrotesque-Regular.woff2"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/base.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/button.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/checkbox.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\img\\check.svg":[["check.f6311720.svg","img/check.svg"],"img/check.svg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/tags.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/tax-deductions-list.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/input.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/popup.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63421" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63724" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +428,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.c52e0fe2.d52e581a.js.map
+},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=/main.c52e0fe2.js.map
