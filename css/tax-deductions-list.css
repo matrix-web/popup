@@ -1,0 +1,38 @@
+.tax-deductions {
+  font-size: 1.17rem;
+}
+
+.tax-deductions-list {
+  max-height: 18.92rem;
+  overflow: auto;
+}
+
+.tax-deductions-list::-webkit-scrollbar {
+  width: .86rem;
+}
+
+.tax-deductions-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  border-radius: .71rem;
+}
+
+.tax-deductions-list::-webkit-scrollbar-thumb {
+  border-radius: .71rem;
+  background: rgba(255, 0, 0, .8);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.tax-deductions-list__item {
+  padding: 1.33rem 0;
+  border-bottom: 1px solid #DFE3E6;
+}
+
+@media (min-width: 768px) {
+  .tax-deductions-list {
+    max-height: 17.21rem;
+  }
+
+  .tax-deductions-list__item {
+    padding: 1.143rem 0;
+  }
+}

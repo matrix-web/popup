@@ -1,0 +1,50 @@
+.tag {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tag__switch {
+  position: absolute;
+  width: .1px;
+  height: .1px;
+  z-index: -1;
+  opacity: 0;
+}
+
+.tag__switch:checked + .tag__custom {
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+  color: #fff;
+}
+
+.tag__switch:checked + .tag__custom .tag__custom--grey-text {
+  color: #fff;
+}
+
+.tag__switch:checked:hover + .tag__custom {
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+}
+
+.tag__switch:hover + .tag__custom {
+  background-color: #DFE3E6;
+}
+
+.tag__custom {
+  display: inline-block;
+  padding: .67rem 1rem;
+  background: #EEF0F2;
+  border-radius: 50px;
+  color: #000;
+  font-size: 1.16rem;
+  font-weight: 400;
+}
+
+.tag__custom--grey-text {
+  color: #a0a1a1;
+}
+
+@media (min-width: 768px) {
+  .tag__custom {
+    padding: .458rem 1rem;
+    font-size: 1rem;
+  }
+}
